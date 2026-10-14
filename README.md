@@ -17,8 +17,6 @@
 
 <h2 align="center">🚀 About Me</h2>
 
-- 👨‍💻 iCargo SME at IAG Cargo, supporting British Airways cargo operations.
-- 📦 Experienced in operational systems, shipment processing and safety procedures.
 - ☁️ Developing practical skills in DevOps, Cloud Engineering and Automation.
 - 🔐 Interested in DevSecOps, infrastructure security and secure deployment pipelines.
 - 🚀 Building hands-on projects to develop my technical skills.
