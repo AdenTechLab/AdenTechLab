@@ -59,7 +59,6 @@
 </p>
 
 ---
-
 <h2 align="center">🚀 Featured Projects</h2>
 
 <table>
@@ -69,37 +68,37 @@
 <th>Technologies</th>
 </tr>
 <tr>
-<td>🐧 Linux Server Hardening</td>
-<td>Security checks and Linux system hardening exercises.</td>
-<td>Linux, Bash</td>
+<td>
+<a href="https://github.com/YOUR-USERNAME/linux-server-hardening">🐧 Linux Server Hardening</a>
+</td>
+<td>Harden Ubuntu Server, configure SSH and firewall security, and automate security audits.</td>
+<td>Linux, Bash, Ubuntu, SSH, UFW</td>
 </tr>
 <tr>
 <td>🐍 Python Log Analyser</td>
-<td>Analyse log files and generate automated reports.</td>
-<td>Python</td>
+<td>Analyse log files, identify errors and suspicious activity, and generate automated reports.</td>
+<td>Python, Linux</td>
 </tr>
 <tr>
 <td>🐳 Containerised Application</td>
-<td>Build and run an application inside a container.</td>
+<td>Build, containerise and run an application using Docker.</td>
 <td>Docker, Python</td>
 </tr>
 <tr>
 <td>⚙️ CI/CD Pipeline</td>
-<td>Automate testing and build workflows.</td>
+<td>Automate testing and build workflows using continuous integration.</td>
 <td>GitHub Actions</td>
 </tr>
 <tr>
 <td>☁️ Cloud Infrastructure</td>
-<td>Explore infrastructure provisioning through code.</td>
+<td>Provision and manage cloud infrastructure using infrastructure as code.</td>
 <td>AWS, Terraform</td>
 </tr>
 </table>
 
 <p align="center">
-<i>Project links will be added as the projects are completed and published.</i>
+<i>More projects will be added as they are completed and published.</i>
 </p>
-
-
 
 ---
 
