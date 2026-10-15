@@ -69,7 +69,7 @@
 </tr>
 <tr>
 <td>
-<a href="https://github.com/YOUR-USERNAME/linux-server-hardening">🐧 Linux Server Hardening</a>
+<a href="https://github.com/AdenTechLab/linux-server-hardening">🐧 Linux Server Hardening</a>
 </td>
 <td>Harden Ubuntu Server, configure SSH and firewall security, and automate security audits.</td>
 <td>Linux, Bash, Ubuntu, SSH, UFW</td>
