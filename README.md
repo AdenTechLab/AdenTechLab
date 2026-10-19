@@ -1,11 +1,10 @@
-
-<div align="center">
+ <div align="center">
 
 # Hi 👋, I'm Aden
 
-### DevOps & Cloud Engineering
+### DevOps & Cloud Engineering | Infrastructure Automation
 
-**Automation · Cloud Infrastructure · CI/CD · DevSecOps**
+**Cloud Infrastructure · Infrastructure as Code · CI/CD · Linux Security**
 
 <a href="https://github.com/AdenTechLab">
   <img src="https://img.shields.io/badge/GitHub-AdenTechLab-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -20,21 +19,21 @@
 
 <h2 align="center">👨‍💻 About Me</h2>
 
-- ☁️ Developing practical skills in DevOps, cloud engineering and automation.
-- 🔐 Exploring DevSecOps, Linux security and secure deployment pipelines.
-- 🐳 Building applications with Docker and automating tests with GitHub Actions.
-- 🚀 Building hands-on projects to develop my technical skills.
-- 🎯 Working towards a career in DevOps and cloud engineering.
+- ☁️ Developing practical skills in AWS, cloud infrastructure and DevOps.
+- ⚙️ Building Infrastructure as Code projects with Terraform.
+- 🔐 Automating Linux security checks and exploring DevSecOps practices.
+- 🧪 Writing automated tests and integrating quality checks into GitHub Actions.
+- 🐳 Developing my knowledge of containerisation and deployment automation.
+- 🚀 Learning by building practical projects and documenting what I learn.
 
 ---
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
-### Cloud & Infrastructure
+### Cloud & Infrastructure as Code
 
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
 </p>
 
@@ -42,7 +41,6 @@
 
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
@@ -59,6 +57,7 @@
 <p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/DevSecOps-333333?style=for-the-badge&logo=dependabot&logoColor=white" alt="DevSecOps"/>
+  <img src="https://img.shields.io/badge/Checkov-Security_Scanning-4B32C3?style=for-the-badge" alt="Checkov"/>
 </p>
 
 ---
@@ -79,29 +78,43 @@
         <a href="https://github.com/AdenTechLab/linux-server-hardening">🐧 Linux Server Hardening</a>
       </td>
       <td>
-        Automates Linux security audits, checks SSH configuration and file permissions, and reviews firewall security.
+        Automates Linux security audits, checks SSH configuration and file permissions, and reviews firewall security. Includes automated tests and GitHub Actions CI.
       </td>
-      <td>Linux, Bash, Ubuntu, SSH, UFW, ShellCheck</td>
+      <td>Linux, Bash, Ubuntu, SSH, UFW, ShellCheck, GitHub Actions</td>
     </tr>
     <tr>
       <td>
         <a href="https://github.com/AdenTechLab/python-log-analyser">🐍 Python Log Analyser</a>
       </td>
       <td>
-        Analyses Linux authentication logs, detects failed logins, flags suspicious IP addresses and generates persistent reports. Includes a non-root Docker container and automated CI.
+        Analyses Linux authentication logs, detects failed logins, flags suspicious IP addresses and generates reports. Includes automated tests and a non-root Docker container.
       </td>
       <td>Python, Linux, Docker, pytest, GitHub Actions</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/AdenTechLab/aws-terraform-infrastructure">☁️ AWS Infrastructure with Terraform</a>
+      </td>
+      <td>
+        Defines cloud infrastructure configuration using Terraform. Includes project metadata, tagging conventions, outputs, automated configuration tests, GitHub Actions CI and Checkov security scanning. AWS networking deployment is pending resolution of an organisation-level permission restriction.
+      </td>
+      <td>AWS, Terraform, GitHub Actions, Checkov, IaC</td>
     </tr>
   </tbody>
 </table>
 
-<h3 align="center">🔭 Areas I'm Exploring Next</h3>
+---
+
+<h2 align="center">🎯 Current Learning Focus</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cloud_Infrastructure-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Cloud Infrastructure"/>
-  <img src="https://img.shields.io/badge/Infrastructure_as_Code-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Container_Orchestration-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/AWS-Cloud_Infrastructure-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Terraform-Infrastructure_as_Code-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
+  <img src="https://img.shields.io/badge/Docker-Containerisation-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/CI%2FCD-Automation-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD"/>
 </p>
+
+My focus is on developing practical DevOps skills through version-controlled projects, infrastructure automation, testing, security checks and continuous integration.
 
 ---
 
