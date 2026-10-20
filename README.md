@@ -112,11 +112,11 @@ I'm building practical skills in DevOps, cloud infrastructure and DevSecOps thro
       <td>
         <a href="https://github.com/AdenTechLab/aws-terraform-infrastructure">☁️ AWS Infrastructure with Terraform</a>
       </td>
-      <td>🔄 In Progress</td>
+      <td>✅ Core Infrastructure Deployed</td>
       <td>
-        Builds an Infrastructure as Code foundation with Terraform, reusable project configuration, resource tagging, outputs and automated validation. Includes GitHub Actions CI and Checkov security scanning. AWS networking deployment is blocked by an organisation-level Service Control Policy (SCP) restriction.
+        Provisions AWS networking with Terraform, including a VPC, subnet, Internet Gateway and route table. Implements restrictive security groups, encrypted VPC Flow Logs with KMS key rotation, one-year CloudWatch log retention and a dedicated IAM role with a scoped policy. Includes Terraform tests, automated validation, GitHub Actions CI and Checkov security scanning. Latest reported Checkov result: 27 passed, 0 failed.
       </td>
-      <td>AWS, Terraform, GitHub Actions, Checkov, IaC</td>
+      <td>AWS, Terraform, VPC, IAM, KMS, CloudWatch, GitHub Actions, Checkov, IaC</td>
     </tr>
     <tr>
       <td>
@@ -143,15 +143,16 @@ I'm building practical skills in DevOps, cloud infrastructure and DevSecOps thro
   <img src="https://img.shields.io/badge/CI%2FCD-Automation-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD"/>
 </p>
 
-My current focus is **AWS infrastructure with Terraform**, building on the Linux, Python, Docker and CI/CD skills developed through my first four portfolio projects.
+My current focus is **AWS infrastructure, Terraform and DevSecOps**, building on the Linux, Python, Docker and CI/CD skills developed through my first four portfolio projects.
 
 I'm continuing to develop my understanding of:
 
 - Infrastructure provisioning, networking and cloud security.
+- Infrastructure as Code and repeatable deployments with Terraform.
 - Container security, image hardening and vulnerability management.
 - Automated testing and security gates in CI/CD pipelines.
-- Linux administration, networking and deployment automation.
-- DevSecOps practices that integrate security throughout the development lifecycle.
+- IAM, encryption, logging and least-privilege access.
+- Kubernetes and cloud-native deployment practices.
 
 ---
 
