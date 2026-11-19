@@ -1,10 +1,11 @@
- <div align="center">
+
+<div align="center">
 
 # Hi 👋, I'm Aden
 
 ### DevOps & Cloud Engineering | Infrastructure Automation
 
-**Cloud Infrastructure · Infrastructure as Code · CI/CD · DevSecOps**
+**AWS Cloud Infrastructure · Infrastructure as Code · CI/CD · DevSecOps · Cloud Monitoring**
 
 <a href="https://github.com/AdenTechLab">
   <img src="https://img.shields.io/badge/GitHub-AdenTechLab-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -19,14 +20,17 @@
 
 <h2 align="center">👨‍💻 About Me</h2>
 
-I'm building practical skills in DevOps, cloud infrastructure and DevSecOps through hands-on projects, automation and continuous learning.
+I'm developing practical expertise in DevOps, Cloud Engineering and DevSecOps through hands-on projects, cloud infrastructure deployments, automation and continuous learning.
 
-- ☁️ Developing cloud infrastructure skills with AWS and Terraform.
-- 🐳 Building secure, containerised applications with Docker and Docker Compose.
-- 🔐 Applying security best practices across Linux, containers and CI/CD pipelines.
-- ⚙️ Automating workflows with Bash, Python and GitHub Actions.
-- 🧪 Integrating automated testing, code security analysis and vulnerability scanning.
-- 🚀 Building a GitHub portfolio focused on infrastructure automation, secure deployments and operational reliability.
+My focus is on building secure, reliable and automated cloud environments using AWS and modern DevOps technologies.
+
+- ☁️ Building and managing AWS cloud infrastructure.
+- 🏗️ Automating infrastructure provisioning using Terraform.
+- 🐳 Developing secure, containerised applications using Docker.
+- ⚙️ Automating deployments and operational workflows using Python, Bash and GitHub Actions.
+- 🔍 Implementing cloud monitoring, incident detection and automated remediation.
+- 🔐 Applying security best practices across infrastructure, applications and CI/CD pipelines.
+- 🚀 Building practical projects focused on cloud engineering, operational reliability and infrastructure automation.
 
 ---
 
@@ -37,6 +41,9 @@ I'm building practical skills in DevOps, cloud infrastructure and DevSecOps thro
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+  <img src="https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" alt="CloudWatch"/>
+  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" alt="Lambda"/>
+  <img src="https://img.shields.io/badge/Amazon_SNS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="SNS"/>
 </p>
 
 ### Containers & CI/CD
@@ -128,41 +135,62 @@ I'm building practical skills in DevOps, cloud infrastructure and DevSecOps thro
       </td>
       <td>Python, Flask, Docker, Docker Compose, pytest, GitHub Actions, Bandit, pip-audit, Trivy</td>
     </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/AdenTechLab/automated-incident-response">🚨 Automated AWS Incident Detection & Remediation</a>
+      </td>
+      <td>✅ Completed</td>
+      <td>
+        Builds an automated AWS incident response workflow using CloudWatch alarms, AWS Lambda and Amazon SNS. Monitors EC2 CPU utilisation, triggers an alert when CPU exceeds a 70% threshold, records incident details, sends email notifications and automatically reboots the designated EC2 instance. Tested using stress-ng to simulate high CPU utilisation, verifying alarm activation, Lambda execution, notifications, logging and automated recovery.
+      </td>
+      <td>AWS EC2, CloudWatch, Lambda, SNS, IAM, Python, Cloud Monitoring, Incident Response</td>
+    </tr>
   </tbody>
 </table>
+
+---
+
+
+<h2 align="center">🎓 Certifications</h2>
+
+- ✅ Google Cybersecurity Professional Certificate 
+- ✅ AWS Certified Cloud Practitioner 
 
 ---
 
 <h2 align="center">🎯 Current Learning Focus</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-Cloud_Infrastructure-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/AWS-Cloud_Engineering-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Terraform-Infrastructure_as_Code-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
   <img src="https://img.shields.io/badge/Docker-Containerisation-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/DevSecOps-Security_Automation-333333?style=flat-square&logo=dependabot&logoColor=white" alt="DevSecOps"/>
   <img src="https://img.shields.io/badge/CI%2FCD-Automation-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD"/>
 </p>
 
-My current focus is **AWS infrastructure, Terraform and DevSecOps**, building on the Linux, Python, Docker and CI/CD skills developed through my first four portfolio projects.
+My current focus is **AWS Cloud Engineering, infrastructure automation, monitoring and DevSecOps**, building on the practical skills developed through my portfolio projects.
 
 I'm continuing to develop my understanding of:
 
-- Infrastructure provisioning, networking and cloud security.
+- AWS architecture, networking and cloud security.
 - Infrastructure as Code and repeatable deployments with Terraform.
-- Container security, image hardening and vulnerability management.
-- Automated testing and security gates in CI/CD pipelines.
+- Cloud monitoring, observability and incident response.
+- Automated remediation using AWS Lambda and Python.
 - IAM, encryption, logging and least-privilege access.
+- Container security and vulnerability management.
+- CI/CD pipelines and automated security testing.
 - Kubernetes and cloud-native deployment practices.
 
 ---
 
 <h2 align="center">📈 My Approach</h2>
 
-- **Build:** Develop practical projects that solve real problems.
-- **Automate:** Reduce repetitive tasks with scripts and CI/CD pipelines.
-- **Secure:** Apply security checks and hardening throughout the development process.
-- **Test:** Validate changes through repeatable automated tests.
-- **Document:** Keep projects version-controlled, documented and easy to review.
+- **Build:** Develop practical projects that solve real-world problems.
+- **Automate:** Reduce repetitive tasks using Python, Bash and CI/CD pipelines.
+- **Secure:** Apply security controls throughout infrastructure and application development.
+- **Monitor:** Improve visibility through logging, monitoring and alerting.
+- **Test:** Validate infrastructure and applications through repeatable automated tests.
+- **Document:** Maintain version-controlled projects with clear technical documentation.
 
 ---
 
