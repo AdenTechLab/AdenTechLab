@@ -4,7 +4,7 @@
 
 ### DevOps & Cloud Engineering | Infrastructure Automation
 
-**AWS Cloud Infrastructure · Infrastructure as Code · CI/CD · DevSecOps · Cloud Monitoring**
+**AWS Cloud · Terraform · CI/CD · Docker · Cloud Monitoring**
 
 <a href="https://github.com/AdenTechLab">
   <img src="https://img.shields.io/badge/GitHub-AdenTechLab-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -19,17 +19,16 @@
 
 <h2 align="center">👨‍💻 About Me</h2>
 
-I'm developing practical expertise in DevOps, Cloud Engineering and DevSecOps through hands-on projects, cloud infrastructure deployments, automation and continuous learning.
+I'm developing practical expertise in DevOps and Cloud Engineering through hands-on projects, infrastructure deployments and automation.
 
 My focus is on building secure, reliable and automated cloud environments using AWS and modern DevOps technologies.
 
 - ☁️ Building and managing AWS cloud infrastructure.
 - 🏗️ Automating infrastructure provisioning using Terraform.
-- 🐳 Developing and deploying containerised applications using Docker and AWS ECS Fargate.
-- ⚙️ Automating deployments and operational workflows using Python, Bash and GitHub Actions.
-- 🔍 Implementing cloud monitoring, incident detection and automated remediation.
-- 🔐 Applying security best practices across infrastructure, applications and CI/CD pipelines.
-- 🚀 Building practical projects focused on cloud engineering, operational reliability and infrastructure automation.
+- 🐳 Containerising and deploying applications using Docker and AWS ECS Fargate.
+- ⚙️ Building CI/CD pipelines with GitHub Actions.
+- 🔍 Implementing cloud monitoring and automated incident response.
+- 🔐 Applying security best practices across cloud infrastructure and deployment workflows.
 
 ---
 
@@ -49,7 +48,7 @@ My focus is on building secure, reliable and automated cloud environments using 
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
-### 💻 Programming & Operating Systems
+### 💻 Programming & Systems
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -58,19 +57,12 @@ My focus is on building secure, reliable and automated cloud environments using 
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
-### 🔐 Security & DevSecOps
+### 🔐 Security & Testing
 
 <p>
-  <img src="https://img.shields.io/badge/DevSecOps-333333?style=for-the-badge" alt="DevSecOps"/>
   <img src="https://img.shields.io/badge/Checkov-4B32C3?style=for-the-badge" alt="Checkov"/>
-  <img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white" alt="Trivy"/>
+  <img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge" alt="Trivy"/>
   <img src="https://img.shields.io/badge/Bandit-222222?style=for-the-badge" alt="Bandit"/>
-</p>
-
-### 📊 Monitoring & Testing
-
-<p>
-  <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" alt="CloudWatch"/>
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest"/>
 </p>
 
@@ -83,70 +75,50 @@ My focus is on building secure, reliable and automated cloud environments using 
     <tr>
       <th>Project</th>
       <th>Status</th>
-      <th>Description</th>
+      <th>Overview</th>
       <th>Technologies</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/AdenTechLab/terraform-aws-cicd-pipeline">🚀 Terraform AWS CI/CD Pipeline</a>
+        <a href="https://github.com/AdenTechLab/terraform-aws-cicd-pipeline"><strong>🚀 Terraform AWS CI/CD Pipeline</strong></a>
       </td>
       <td>✅ Deployed</td>
       <td>
-        Builds an end-to-end CI/CD pipeline using Terraform and GitHub Actions to test, containerise and deploy a Python Flask application to Amazon ECS Fargate. Implements GitHub OIDC authentication, Amazon ECR image management, IAM permissions, AWS networking and CloudWatch logging. Successfully deployed and verified with a live application health check.
+        End-to-end CI/CD pipeline deploying a containerised Flask application to AWS ECS Fargate. Includes Terraform infrastructure, GitHub Actions automation, OIDC authentication, Amazon ECR image management and CloudWatch logging.
       </td>
-      <td>AWS, Terraform, ECS Fargate, ECR, IAM, OIDC, Docker, GitHub Actions, Python, Flask, CloudWatch</td>
+      <td>AWS, Terraform, Docker, GitHub Actions, ECS, ECR, IAM, OIDC, Python</td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/AdenTechLab/linux-server-hardening">🐧 Linux Server Hardening</a>
+        <a href="https://github.com/AdenTechLab/automated-incident-response"><strong>🚨 AWS Incident Detection &amp; Remediation</strong></a>
       </td>
       <td>✅ Completed</td>
       <td>
-        Automates Linux security audits, checks SSH configuration and file permissions, and reviews firewall security. Includes automated tests, ShellCheck validation and GitHub Actions CI.
+        Automated incident response using CloudWatch alarms, Lambda and SNS. Monitors EC2 CPU utilisation, sends notifications and triggers automated recovery.
       </td>
-      <td>Linux, Bash, Ubuntu, SSH, UFW, ShellCheck, GitHub Actions</td>
+      <td>AWS EC2, CloudWatch, Lambda, SNS, IAM, Python</td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/AdenTechLab/python-log-analyser">🐍 Python Log Analyser</a>
-      </td>
-      <td>✅ Completed</td>
-      <td>
-        Analyses Linux authentication logs, identifies failed login attempts, flags suspicious IP addresses and generates reports. Includes automated tests and a non-root Docker container.
-      </td>
-      <td>Python, Linux, Docker, pytest, GitHub Actions</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/AdenTechLab/aws-terraform-infrastructure">☁️ AWS Infrastructure with Terraform</a>
+        <a href="https://github.com/AdenTechLab/aws-terraform-infrastructure"><strong>☁️ AWS Infrastructure with Terraform</strong></a>
       </td>
       <td>✅ Core Infrastructure Deployed</td>
       <td>
-        Provisions AWS networking with Terraform, including a VPC, subnet, Internet Gateway and route table. Implements restrictive security groups, encrypted VPC Flow Logs with KMS key rotation, one-year CloudWatch log retention and a dedicated IAM role with a scoped policy. Includes Terraform tests, automated validation, GitHub Actions CI and Checkov security scanning. Latest reported Checkov result: 27 passed, 0 failed.
+        Provisions and secures AWS networking using Terraform. Includes VPC, subnets, security groups, encrypted VPC Flow Logs, KMS, IAM and automated security scanning.
       </td>
-      <td>AWS, Terraform, VPC, IAM, KMS, CloudWatch, GitHub Actions, Checkov, IaC</td>
+      <td>AWS, Terraform, VPC, IAM, KMS, CloudWatch, Checkov</td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/AdenTechLab/docker-containerised-app">🐳 Containerised Application with Docker</a>
+        <a href="https://github.com/AdenTechLab/docker-containerised-app"><strong>🐳 Containerised Application with Docker</strong></a>
       </td>
       <td>✅ Completed</td>
       <td>
-        Containerises a Python Flask application using Docker and Docker Compose. Implements a non-root runtime, container health checks and a hardened image configuration. Includes automated tests, CI/CD integration, Python security scanning and container vulnerability scanning.
+        Containerised Python Flask application using Docker and Docker Compose. Includes non-root execution, health checks, automated testing and vulnerability scanning.
       </td>
-      <td>Python, Flask, Docker, Docker Compose, pytest, GitHub Actions, Bandit, pip-audit, Trivy</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/AdenTechLab/automated-incident-response">🚨 Automated AWS Incident Detection &amp; Remediation</a>
-      </td>
-      <td>✅ Completed</td>
-      <td>
-        Builds an automated AWS incident response workflow using CloudWatch alarms, AWS Lambda and Amazon SNS. Monitors EC2 CPU utilisation, triggers an alert when CPU exceeds a 70% threshold, records incident details, sends email notifications and automatically reboots the designated EC2 instance. Tested using stress-ng to simulate high CPU utilisation, verifying alarm activation, Lambda execution, notifications, logging and automated recovery.
-      </td>
-      <td>AWS EC2, CloudWatch, Lambda, SNS, IAM, Python, Cloud Monitoring, Incident Response</td>
+      <td>Python, Flask, Docker, Docker Compose, pytest, Bandit, Trivy</td>
     </tr>
   </tbody>
 </table>
@@ -155,8 +127,8 @@ My focus is on building secure, reliable and automated cloud environments using 
 
 <h2 align="center">🎓 Certifications</h2>
 
-- ✅ Google Cybersecurity Professional Certificate
 - ✅ AWS Certified Cloud Practitioner
+- ✅ Google Cybersecurity Professional Certificate
 
 ---
 
@@ -166,33 +138,29 @@ My focus is on building secure, reliable and automated cloud environments using 
   <img src="https://img.shields.io/badge/AWS-Cloud_Engineering-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Terraform-Infrastructure_as_Code-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
   <img src="https://img.shields.io/badge/Docker-Containerisation-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/DevSecOps-Security_Automation-333333?style=flat-square&logo=dependabot&logoColor=white" alt="DevSecOps"/>
+  <img src="https://img.shields.io/badge/DevSecOps-Security_Automation-333333?style=flat-square" alt="DevSecOps"/>
   <img src="https://img.shields.io/badge/CI%2FCD-Automation-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD"/>
 </p>
 
-My current focus is **AWS Cloud Engineering, infrastructure automation, monitoring and DevSecOps**, building on the practical skills developed through my portfolio projects.
+My current focus is developing deeper knowledge and practical skills in:
 
-I'm continuing to develop my understanding of:
-
-- AWS architecture, networking and cloud security.
-- Infrastructure as Code and repeatable deployments with Terraform.
-- Cloud monitoring, observability and incident response.
-- Automated remediation using AWS Lambda and Python.
-- IAM, encryption, logging and least-privilege access.
-- Container security and vulnerability management.
-- CI/CD pipelines and automated security testing.
-- Kubernetes and cloud-native deployment practices.
+- AWS Cloud Architecture and networking.
+- Terraform and Infrastructure as Code.
+- CI/CD and deployment automation.
+- Cloud security, IAM and least privilege.
+- Monitoring, observability and incident response.
+- Containerisation and cloud-native technologies.
+- Governance, Risk and Compliance fundamentals.
 
 ---
 
 <h2 align="center">📈 My Approach</h2>
 
-- **Build:** Develop practical projects that solve real-world problems.
-- **Automate:** Reduce repetitive tasks using Python, Bash and CI/CD pipelines.
-- **Secure:** Apply security controls throughout infrastructure and application development.
+- **Build:** Develop practical projects using real cloud services.
+- **Automate:** Reduce repetitive tasks through scripting and CI/CD.
+- **Secure:** Apply security best practices throughout infrastructure and deployments.
 - **Monitor:** Improve visibility through logging, monitoring and alerting.
-- **Test:** Validate infrastructure and applications through repeatable automated tests.
-- **Document:** Maintain version-controlled projects with clear technical documentation.
+- **Document:** Maintain clear, version-controlled technical projects.
 
 ---
 
