@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Hi 👋, I'm Aden
@@ -26,7 +25,7 @@ My focus is on building secure, reliable and automated cloud environments using 
 
 - ☁️ Building and managing AWS cloud infrastructure.
 - 🏗️ Automating infrastructure provisioning using Terraform.
-- 🐳 Developing secure, containerised applications using Docker.
+- 🐳 Developing and deploying containerised applications using Docker and AWS ECS Fargate.
 - ⚙️ Automating deployments and operational workflows using Python, Bash and GitHub Actions.
 - 🔍 Implementing cloud monitoring, incident detection and automated remediation.
 - 🔐 Applying security best practices across infrastructure, applications and CI/CD pipelines.
@@ -34,51 +33,45 @@ My focus is on building secure, reliable and automated cloud environments using 
 
 ---
 
-<h2 align="center">🛠️ Tech Stack</h2>
+## 🛠️ Tech Stack
 
-### Cloud & Infrastructure as Code
+### ☁️ Cloud & Infrastructure
 
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" alt="CloudWatch"/>
-  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" alt="Lambda"/>
-  <img src="https://img.shields.io/badge/Amazon_SNS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="SNS"/>
 </p>
 
-### Containers & CI/CD
+### 🐳 Containers & CI/CD
 
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
-### Programming & Version Control
+### 💻 Programming & Operating Systems
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
-### Security & Testing
+### 🔐 Security & DevSecOps
 
 <p>
-  <img src="https://img.shields.io/badge/DevSecOps-333333?style=for-the-badge&logo=dependabot&logoColor=white" alt="DevSecOps"/>
+  <img src="https://img.shields.io/badge/DevSecOps-333333?style=for-the-badge" alt="DevSecOps"/>
   <img src="https://img.shields.io/badge/Checkov-4B32C3?style=for-the-badge" alt="Checkov"/>
-  <img src="https://img.shields.io/badge/Bandit-Python_Security-222222?style=for-the-badge" alt="Bandit"/>
   <img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white" alt="Trivy"/>
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest"/>
-  <img src="https://img.shields.io/badge/ShellCheck-4EAA25?style=for-the-badge" alt="ShellCheck"/>
+  <img src="https://img.shields.io/badge/Bandit-222222?style=for-the-badge" alt="Bandit"/>
 </p>
 
-### Operating Systems & Infrastructure
+### 📊 Monitoring & Testing
 
 <p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/OpenSSH-333333?style=for-the-badge&logo=openssh&logoColor=white" alt="OpenSSH"/>
+  <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" alt="CloudWatch"/>
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest"/>
 </p>
 
 ---
@@ -95,6 +88,16 @@ My focus is on building secure, reliable and automated cloud environments using 
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/AdenTechLab/terraform-aws-cicd-pipeline">🚀 Terraform AWS CI/CD Pipeline</a>
+      </td>
+      <td>✅ Deployed</td>
+      <td>
+        Builds an end-to-end CI/CD pipeline using Terraform and GitHub Actions to test, containerise and deploy a Python Flask application to Amazon ECS Fargate. Implements GitHub OIDC authentication, Amazon ECR image management, IAM permissions, AWS networking and CloudWatch logging. Successfully deployed and verified with a live application health check.
+      </td>
+      <td>AWS, Terraform, ECS Fargate, ECR, IAM, OIDC, Docker, GitHub Actions, Python, Flask, CloudWatch</td>
+    </tr>
     <tr>
       <td>
         <a href="https://github.com/AdenTechLab/linux-server-hardening">🐧 Linux Server Hardening</a>
@@ -137,7 +140,7 @@ My focus is on building secure, reliable and automated cloud environments using 
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/AdenTechLab/automated-incident-response">🚨 Automated AWS Incident Detection & Remediation</a>
+        <a href="https://github.com/AdenTechLab/automated-incident-response">🚨 Automated AWS Incident Detection &amp; Remediation</a>
       </td>
       <td>✅ Completed</td>
       <td>
@@ -150,11 +153,10 @@ My focus is on building secure, reliable and automated cloud environments using 
 
 ---
 
-
 <h2 align="center">🎓 Certifications</h2>
 
-- ✅ Google Cybersecurity Professional Certificate 
-- ✅ AWS Certified Cloud Practitioner 
+- ✅ Google Cybersecurity Professional Certificate
+- ✅ AWS Certified Cloud Practitioner
 
 ---
 
